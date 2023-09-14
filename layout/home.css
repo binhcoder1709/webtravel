@@ -85,6 +85,10 @@ header
 } */
 @media screen and (max-width: 1170px)
 {
+    .header
+    {
+        height: 50px;
+    }
     .function
     {
         display: none;
@@ -223,11 +227,14 @@ header
     {
         text-align: center;
     }
+    .book-opt
+    {
+        background-color: rgb(247, 240, 240);
+    }
     .book-opt form
     {
         display: flex;
         width: 100%;
-        background-color: #FE9368;
         gap: 0px;
     }   
 }
@@ -311,9 +318,14 @@ header
 }
 @media screen and (max-width: 1170px)
 {
+    .modern-beautiful
+    {
+        background: rgb(249, 242, 242);
+    }
     .modern-beautiful h1
     {
         text-align: center;
+        color: gray;
     }
     .modern-box
     {
@@ -327,4 +339,53 @@ header
     {
         width: 100%;
     }
+}
+.testimonials
+{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    
+}
+.testimonials-content
+{
+    background-color: #FE9368;
+    width: 80%;
+}
+.testimonials-text
+{
+
+}
+.testimonials-box
+{
+
+}
+.box-2
+{
+    display: flex;
+    flex-direction: column;
+}
+.box-2-info
+{
+    display: flex;
+}
+.box-2-info img
+{
+    width: 50px;
+    height: 50px;
+}
+.box-2-info-text
+{
+
+}
+.box-2-para
+{
+
+}
+.box-2-rate
+{
+
 }
