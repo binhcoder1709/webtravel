@@ -1,3 +1,14 @@
+@keyframes slideTop {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 *
 {
     margin: 0;
@@ -344,48 +355,86 @@ header
 {
     width: 100%;
     display: flex;
-    background-color: aqua;
     flex-direction: column;
     align-items: center;
     /* text-align: center; */
-    
+    height: 700px;
+    padding: 50px 0px;
 }
 .testimonials-content
 {
-    background-color: #FE9368;
-    width: 80%;
+    background-color: #f9f9f9;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    /* background: url(../sources/221119-travel-background-1920x1080-laptop.jpg); */
+    /* background-position: center right; */
 }
 .testimonials-text
 {
-
+    /* background-color: aqua; */
+    padding: 0px 30px;
+}
+.testimonials-text h3
+{
+    font-family: cursive;
+    color: #f5754a;
+    font-size: large;
 }
 .testimonials-box
 {
-
+    display: flex;
+    justify-content: space-between;
 }
 .box-2
 {
     display: flex;
     flex-direction: column;
+    width: 32%;
+    padding: 20px 10px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.box-2:hover
+{
+    /* transform: scaleY(1.1); */
+    animation: slideTop 0.5s ease forwards;
+    transition: .3s;
 }
 .box-2-info
 {
     display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
 }
 .box-2-info img
 {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 .box-2-info-text
 {
-
+    display: flex;
+    flex-direction: column;
 }
 .box-2-para
 {
-
+    /* padding: 0px 10px; */
 }
-.box-2-rate
+.box-2-para p
 {
-
+    width: 80%;
+    text-align: justify;
+    font-style: italic;
+}
+.box-2-rate i
+{
+    color: #f4c627;
+    font-size: smaller;
 }
