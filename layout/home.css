@@ -1,6 +1,6 @@
 @keyframes slideTop {
     0% {
-        transform: translateY(20px);
+        transform: translateY(10px);
         opacity: 0;
     }
 
@@ -417,6 +417,7 @@ header
 {
     width: 100px;
     height: 100px;
+    /* display: none; */
 }
 .box-2-info-text
 {
@@ -437,4 +438,45 @@ header
 {
     color: #f4c627;
     font-size: smaller;
+}
+.footer
+{
+    width: 100%;
+    height: 620px;
+    background: url(../sources/Wallpaper\ Aiguille\ du\ Midi\,\ 4k\,\ 5k\ wallpaper\,\ French\ Alps\,\ Europe\,\ tourism\,\ travel\,\ snow\,\ mountain\,\ Travel\ 6414319205.jpg);
+    background-size: cover;
+    filter: brightness(30%);
+}
+.footer-content
+{
+    padding: 0px 50px;
+    padding-top: 40px;
+}
+.row-1
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.row-1-col-1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row-1-col-1 h3
+{
+    font-size: larger;
+}
+.row-1-col-1 h4
+{
+    font-size: smaller;
+    color: gray;
+}
+.row-1-col-1 form input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-right: 100px;
 }
