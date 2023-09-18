@@ -23,8 +23,8 @@
           <a href="#">FAQ</a>
         </div>
         <div class="lo-re">
-          <a href=""><i class="fa-solid fa-lock"></i> Login</a>
-          <a href=""><i class="fa-solid fa-registered"></i> Register</a>
+          <button id=""><i class="fa-solid fa-lock"></i> Login</button>
+          <!-- <a href=""><i class="fa-solid fa-registered"></i> Register</a> -->
         </div>
       </div>
     </header>
