@@ -9,27 +9,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 <body>
-    <header class="header">
-      <div class="header-content">
-        <div class="logo">
-          <img src="../sources/2.png" alt="">
-        </div>
-        <div class="function">
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Destinations</a>
-          <a href="#">Tour</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Our Team</a>
-          <a href="#">FAQ</a>
-        </div>
-        <div class="lo-re">
-          <a href=""><i class="fa-solid fa-lock"></i> Login</a>
-          <a href=""><i class="fa-solid fa-registered"></i> Register</a>
-        </div>
-      </div>
-    </header>
     <section class="section">
       <div class="carousel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -260,108 +239,24 @@
         </div>
       </div>
       <div class="among-the-all">
-        <div class="among-image">
-          <img src="../sources/14_15BeachDestinationsforWinterGetaway__KrabiThailand_shutterstock_1172686297.jpg" alt="">
-        </div>
-        <div class="among-text">
-          <h3>Among The All</h3>
-          <h1>Choose Your Favorite Tour</h1>
-          <p>Perfect for those looking to experience the region & rsquo;s archaeological and cultural treasures in a short amount of time this adventure includes a four-day trek .One of the world & rsquo; s best-known hikes. <a href="#">More Tours</a></p>
-          <div class="among-small-image">
-            <div class="small-box">
-
+        <div class="among-the-all-content">
+          <div class="among-image">
+            <img src="../sources/14_15BeachDestinationsforWinterGetaway__KrabiThailand_shutterstock_1172686297.jpg" alt="">
+          </div>
+          <div class="among-text">
+            <h3>Among The All</h3>
+            <h1>Choose Your Favorite Tour</h1>
+            <p>Perfect for those looking to experience the region & rsquo;s archaeological and cultural treasures in a short amount of time this adventure includes a four-day trek .One of the world & rsquo; s best-known hikes. <a href="#">More Tours</a></p>
+            <div class="among-small-image">
+              <div class="small-box">
+                
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="row-1">
-          <div class="row-1-col-1">
-            <h3>Newsletter Sign Up</h3>
-            <h4>Sign Up for News And Special Offers</h4>
-            <form action="#">
-              <input type="email" placeholder="Enter Email Address">
-              <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-            </form>
-          </div>
-          <div class="row-1-col-2">
-            <h3>Stay Connected</h3>
-            <h4>Follow Us On Social Media Channels</h4>
-            <div class="row-1-col-2-row-3">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#"><i class="fa-brands fa-github"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="row-2">
-          <div class="row-2-col-1">
-            <h3>TommyTravel</h3>
-            <p>Welcome to the best travel agency where you can find tons of tours to any place on Earth.</p>
-            <div class="row-2-col-1-row-3">
-              <h3>Direct Interact Here</h3>
-              <span><i class="fa-solid fa-phone-volume"></i> 0705222398</span>
-              <span><i class="fa-regular fa-message"></i> hn6006077@gmail.com</span>
-            </div>
-          </div>
-          <div class="row-2-col-2">
-            <h3>Useful Links</h3>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Destinations</a>
-            <a href="#">Tour</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Our Team</a>
-            <a href="#">FAQ</a>
-          </div>
-          <div class="row-2-col-3">
-            <h3>Get In Touch</h3>
-            <h4 style="font-size: medium;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Location</h4>
-            <h4 style="color: gray;">No. 147 Mai Dich, Cau Giay, Hanoi</h4>
-            <h4><i class="fa-solid fa-envelope" style="color: red;"></i> Email</h4>
-            <h4 style="color: gray;">contact@tommytravel.com</h4>
-          </div>
-          <div class="row-2-col-4">
-            <h3>Recent Posts</h3>
-            <div class="box-1-1">
-              <img src="../sources/e772542a-77d0-469f-8629-1b9dc098bce2.595227e94d4749c0ebc6409b24ad5121.webp" alt="">
-              <div class="box-1-col-2">
-                <span style="color: gray;"><i class="fa-regular fa-calendar-days"></i> 1, October 2023</span>
-                <span style="font-weight: 700;">Blog 1</span>
-              </div>
-            </div>
-            <div class="box-1-2">
-              <img src="../sources/e772542a-77d0-469f-8629-1b9dc098bce2.595227e94d4749c0ebc6409b24ad5121.webp" alt="">
-              <div class="box-2-col-2">
-                <span style="color: gray;"><i class="fa-regular fa-calendar-days"></i> 1, October, 2023</span>
-                <span style="font-weight: 700;">Blog 2</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row-3">
-          <div class="row-3-col-1">
-            <span><i class="fa-regular fa-copyright"></i> Copyright by TommyTravel 2023</span>
-          </div>
-          <div class="row-3-col-2">
-            <a href="#">About Us</a>
-            <span>|</span>
-            <a href="#">FAQ</a>
-            <span>|</span>
-            <a href="#">Privacy</a>
-            <span>|</span>
-            <a href="#">Term & Conditions</a>
-          </div>
-        </div>
-      </div>
-    </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="../js/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
