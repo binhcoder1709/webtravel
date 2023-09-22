@@ -1,20 +1,16 @@
-$(document).ready(function() {
-    $(window).scroll(function() {
-      if ($(window).scrollTop() > 100) {
-        $('header').css('background-color', 'white');
-        $('.function a').css('color', 'gray');
-        $('.function a:hover').css('color', 'black');
-        $('header').css('opacity', '1');
-      } else {
-        $('header').css('background-color', 'transparent');
-        $('header').css('backdrop-filter', 'blur(20px)');
-        $('header').css('opacity', '0.9');
-        $('header').css('color', 'black');
-        $('.function a').css('color', 'black');
-      }
-    });
-  });
-  window.addEventListener("load", function () {
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden"; // class "loader hidden"
+import "../view/login.php";
+import "../view/header.php";
+document.getElementById("loginButton").addEventListener("click", function () {
+  document.getElementById("loginPopup").style.display = "block";
+});
+
+// Khi nhấn vào nút đóng hoặc nền mờ, đóng pop-up
+document.getElementById("closePopup").addEventListener("click", function () {
+  document.getElementById("loginPopup").style.display = "none";
+});
+
+document.addEventListener("click", function (event) {
+  if (event.target == document.getElementById("loginPopup")) {
+    document.getElementById("loginPopup").style.display = "none";
+  }
 });

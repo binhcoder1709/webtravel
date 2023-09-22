@@ -66,20 +66,59 @@ header
     justify-content: space-around;
     /* background-color: aqua; */
 }
-.lo-re button
+.lo-re img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+.user-content
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f4f7;
+    /* gap: 10px; */
+    /* padding: 10px 10px; */
+    border-radius: 10px;
+    display: none;
+}
+.user-dropdown span
+{
+    cursor: pointer;
+}
+.user-content a
+{
+    padding: 10px 10px;
+    transition: .3s ease;
+}
+.user-content a:hover
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    /* opacity: 0.1; */
+}
+.user-dropdown:hover .user-content
+{
+    display: flex;
+}
+.lo-re a
 {
     color: black;
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
-.lo-re button:hover
+.lo-re a:hover
 {
     color: gray;
     transition: .3s;
     text-decoration: none;
 }
-.lo-re button:active
+.lo-re a:active
 {
     border: none;
     background-color: transparent;
