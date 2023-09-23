@@ -157,14 +157,14 @@
 }
 .modern-beautiful
 {
-    background: url(../sources/Tổng-quan-du-lịch-Vũng-Tàu-ivivu.jpg) no-repeat;
+    background: url(../sources/scandinavian-mountains-hero.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0px;
+    padding: 30px 0px;  
 }
 .modern-beautiful h3
 {
@@ -202,7 +202,8 @@
 }
 .box-text-1 a
 {
-    font-size: larger;
+    font-size: x-large;
+    font-weight: 600;
     color: black;
 }
 .box-text-2
@@ -221,6 +222,14 @@
     /* background-color: #FE9368; */
     justify-content: space-between;
     align-items: center;
+}
+.box-text-3 a
+{
+    color: black;
+}
+.box-text-3 i
+{
+    color: red;
 }
 .box-image
 {
@@ -324,6 +333,9 @@
     width: 100px;
     height: 100px;
     /* display: none; */
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
 }
 .box-2-info-text
 {

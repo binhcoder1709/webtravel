@@ -16,7 +16,7 @@
 		<div class="login-content">
 			<form action="../controller/index.php?action=authentication" method="post">
 				<img src="../sources/avatar.svg">
-				<h2 class="title">Welcome</h2>
+				<h2 class="title">Login</h2>
            		<div class="input-div one">
            		   <div class="i">
            		   		<i class="fas fa-user"></i>

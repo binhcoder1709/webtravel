@@ -16,7 +16,7 @@
 		<div class="login-content">
 			<form action="../model/insert-user.php" method="post">
 				<img src="../sources/avatar.svg">
-				<h2 class="title">Welcome</h2>
+				<h2 class="title">Register</h2>
            		<div class="input-div one">
            		   <div class="i">
            		   		<i class="fas fa-user"></i>
@@ -24,6 +24,15 @@
            		   <div class="div">
            		   		<h5>Username</h5>
            		   		<input type="text" name="username" class="input">
+           		   </div>
+           		</div>
+				   <div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Fullname</h5>
+           		   		<input type="text" name="fullname" class="input">
            		   </div>
            		</div>
            		<div class="input-div pass">

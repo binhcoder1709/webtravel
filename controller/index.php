@@ -11,8 +11,8 @@ ob_start();
         switch($_GET['action'])
         {
             case 'login':
-                // include "../view/login.php";
-                header('location: ../view/login.php');
+                include "../view/login.php";
+                // header('location: ../view/login.php');
                 break;
             case 'authentication':
                 if(isset($_POST['signin'])&&($_POST['signin']))
@@ -22,7 +22,7 @@ ob_start();
                   $kq=getuserinfo($user,$pass);
                   $_SESSION['username']=$kq[0]['username'];
                   $_SESSION['password']=$kq[0]['password'];
-                  $_SESSION['name']=$kq[0]['name'];
+                  $_SESSION['fullname']=$kq[0]['fullname'];
                   $_SESSION['email']=$kq[0]['email'];
                   $_SESSION['phone']=$kq[0]['phonenumber'];
                   if(($_SESSION['username'])&&($_SESSION['password']))
@@ -41,6 +41,10 @@ ob_start();
                 {
                     unset($_SESSION['username']);
                 }
+                if(isset($_SESSION['fullname'])&&($_SESSION['fullname']!=""))
+                {
+                    unset($_SESSION['fullname']);
+                }
                 if(isset($_SESSION['password'])&&($_SESSION['password']!=""))
                 {
                     unset($_SESSION['password']);
@@ -48,7 +52,10 @@ ob_start();
                 header('location: index.php');
                 break;
             case 'signup':
-                header('location: ../view/register.php');
+                include "../view/register.php";
+                break;
+            case 'home':
+                include "../view/home.php";
                 break;
             default:
                 include "../view/home.php";

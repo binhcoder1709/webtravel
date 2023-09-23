@@ -37,7 +37,8 @@ header
 }
 .logo img
 {
-    height: 100%;
+    height: 80px;
+    /* background-color: aqua; */
 }
 .function
 {
@@ -62,11 +63,11 @@ header
     height: 70%;
     display: flex;
     align-items: center;
-    /* width: 12%; */
+    width: 12%;
     /* justify-content: center; */
     gap: 10px;
     padding: 0px 10px;
-    /* background-color: aqua; */
+    /* background-color: aquamarine; */
 }
 .lo-re img
 {
@@ -86,10 +87,21 @@ header
     /* padding: 10px 10px; */
     border-radius: 10px;
     display: none;
+    width: 11%;
 }
-.user-dropdown span
+.user-dropdown
+{
+    width: 100%;
+}
+.user-dropdown h2
 {
     cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    /* width: 10%; */
+    font-size: medium;
+    padding-top: 10px;
 }
 .user-content a
 {

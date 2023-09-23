@@ -14,9 +14,15 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
+            <div class="carousel-text_1">
+              
+            </div>
               <img class="d-block w-100" src="../sources/221119-travel-background-1920x1080-laptop.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
+            <div class="carousel-text_2">
+              
+            </div>
               <img class="d-block w-100" src="../sources/wp4069415.jpg" alt="Second slide">
             </div>
           </div>
@@ -123,10 +129,10 @@
                   <a href="#">Travel to the Western Europe 3 days 2 nights</a>
                 </div>
                 <div class="box-text-2">
-                  <span><i class="fa-solid fa-location-dot"></i> Central Tourism</span>
+                  <span><i class="fa-solid fa-location-dot"></i> France</span>
                 </div>
                 <div class="box-text-3">
-                  <h4>$500</h4>
+                  <h4>$1000</h4>
                   <a href="#">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
@@ -140,15 +146,15 @@
                   <a href="#">Travel to the Western Europe 3 days 2 nights</a>
                 </div>
                 <div class="box-text-2">
-                  <span><i class="fa-solid fa-location-dot"></i> Central Tourism</span>
+                  <span><i class="fa-solid fa-location-dot"></i> Africa</span>
                 </div>
                 <div class="box-text-3">
-                  <h4>$500</h4>
+                  <h4>$570</h4>
                   <a href="#">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
               <div class="box-image">
-                <img src="../sources/R.jpg" alt="">
+                <img src="../sources/africa.jpg" alt="">
               </div>
             </div>
             <div class="box">
@@ -157,15 +163,15 @@
                   <a href="#">Travel to the Western Europe 3 days 2 nights</a>
                 </div>
                 <div class="box-text-2">
-                  <span><i class="fa-solid fa-location-dot"></i> Central Tourism</span>
+                  <span><i class="fa-solid fa-location-dot"></i> ThaiLand</span>
                 </div>
                 <div class="box-text-3">
-                  <h4>$500</h4>
+                  <h4>$800</h4>
                   <a href="#">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
               <div class="box-image">
-                <img src="../sources/R.jpg" alt="">
+                <img src="../sources/asia.webp" alt="">
               </div>
             </div>
         </div>
@@ -180,9 +186,9 @@
           <div class="testimonials-box">
             <div class="box-2" id="box-2-1">
               <div class="box-2-info" id="box-2-1-info">
-                <img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg" alt="">
+                <img src="../sources/343427977_754060439543192_8143033890524019425_n.jpg" alt="">
                 <div class="box-2-info-text">
-                  <span>abc</span>
+                  <span>Vuong Anh Tran</span>
                   <span style="color: gray;">Customer</span>
                 </div>
               </div>
@@ -194,15 +200,15 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
               </div>
             </div>
             <div class="box-2" id="box-2-2">
               <div class="box-2-info">
                 <img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg" alt="">
                 <div class="box-2-info-text">
-                  <span>abc</span>
-                  <span style="color: gray;">Customer</span>
+                  <span>Ta Van Binh</span>
+                  <span style="color: gray;">President</span>
                 </div>
               </div>
               <div class="box-2-para">
@@ -218,10 +224,10 @@
             </div>
             <div class="box-2" id="box-2-3">
               <div class="box-2-info">
-                <img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg" alt="">
+                <img src="../sources/315886972_663843405193988_6526323603265215831_n.jpg" alt="">
                 <div class="box-2-info-text">
-                  <span>abc</span>
-                  <span style="color: gray;">Customer</span>
+                  <span>Nguyen Huu Vi</span>
+                  <span style="color: gray;">Secretary</span>
                 </div>
               </div>
               <div class="box-2-para">

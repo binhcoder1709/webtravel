@@ -1,16 +1,41 @@
-import "../view/login.php";
-import "../view/header.php";
-document.getElementById("loginButton").addEventListener("click", function () {
-  document.getElementById("loginPopup").style.display = "block";
-});
+// const backToTopButton = document.querySelector(".back-to-top");
 
-// Khi nhấn vào nút đóng hoặc nền mờ, đóng pop-up
-document.getElementById("closePopup").addEventListener("click", function () {
-  document.getElementById("loginPopup").style.display = "none";
-});
+// // Bắt sự kiện cuộn của trang web
+// window.addEventListener("scroll", () => {
+//     // Nếu khoảng cách cuộn lớn hơn hoặc bằng 100px, thì hiển thị nút
+//     if (window.scrollY >= 10) {
+//         backToTopButton.style.display = "block";
+//     } else {
+//         backToTopButton.style.display = "none";
+//     }
+// });
 
-document.addEventListener("click", function (event) {
-  if (event.target == document.getElementById("loginPopup")) {
-    document.getElementById("loginPopup").style.display = "none";
-  }
-});
+// // Khi người dùng nhấp vào nút, cuộn trang lên đầu
+// backToTopButton.addEventListener("click", () => {
+//     window.scrollTo({ top: 0 });
+//     window.scrollTo({ top: 0 }, {
+//       duration: 2000,
+//       easing: "linear",
+//   });
+// });
+// Tạo nút cuộn lên đầu trang
+// const backToTopButton = document.querySelector(".back-to-top");
+
+// // Bắt sự kiện cuộn của trang web
+// window.addEventListener("scroll", () => {
+//     // Nếu khoảng cách cuộn lớn hơn hoặc bằng 100px, thì hiển thị nút
+//     if (window.scrollY >= 10) {
+//         backToTopButton.style.display = "block";
+//     } else {
+//         backToTopButton.style.display = "none";
+//     }
+// });
+
+// // Khi người dùng nhấp vào nút, cuộn trang lên đầu
+// backToTopButton.addEventListener("click", () => {
+//     window.scrollTo({ top: 0 });
+//     window.scrollTo({ top: 0 }, {
+//       duration: 2000,
+//       easing: "linear",
+//   });
+// });
