@@ -261,6 +261,71 @@
           </div>
         </div>
       </div>
+      <div class="place-to-go">
+          <div class="place-text">
+            <h3>Place to go</h3>
+            <a href="#">Book now<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="place-box">
+            <div class="place-box-content" id="place-box">
+              <div class="place-box-text">
+                <h3>Highland</h3>
+              </div>
+              <div class="place-box-info">
+                <span style="font-weight: 700;">01</span>
+                <span>Tour</span>
+                <span>|</span>
+                <span style="font-weight: 700;">21</span>
+                <span>Activities</span>
+                <span>|</span>
+                <span style="font-weight: 700;">12</span>
+                <span>Hotels</span>
+              </div>
+              <div class="place-box-image">
+                <img src="../sources/R (1).jpg" alt="">
+              </div>
+            </div>
+            <div class="place-box-content" id="place-box">
+              <div class="place-box-text">
+                <h3>Sea Island</h3>
+              </div>
+              <div class="place-box-info">
+                <span style="font-weight: 700;">01</span>
+                <span>Tour</span>
+                <span>|</span>
+                <span style="font-weight: 700;">21</span>
+                <span>Activities</span>
+                <span>|</span>
+                <span style="font-weight: 700;">12</span>
+                <span>Hotels</span>
+              </div>
+              <div class="place-box-image">
+                <img src="../sources/R (2).jpg" alt="">
+              </div>
+            </div>
+            <div class="place-box-content" id="place-box">
+              <div class="place-box-text">
+                <h3>Asia Temple</h3>
+              </div>
+              <div class="place-box-info">
+                <span style="font-weight: 700;">01</span>
+                <span>Tour</span>
+                <span>|</span>
+                <span style="font-weight: 700;">21</span>
+                <span>Activities</span>
+                <span>|</span>
+                <span style="font-weight: 700;">12</span>
+                <span>Hotels</span>
+              </div>
+              <div class="place-box-image">
+                <img src="../sources/OIP.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="place-ads">
+            <img src="../sources/perfect-destinations-4.jpg" alt="">
+          </div>
+      </div>
     </section>
 </body>
 <script src="../js/script.js"></script>
