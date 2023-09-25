@@ -32,7 +32,8 @@
               echo '    <div class="user-dropdown">
               <h2><img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg"> Hi, '.$_SESSION['fullname'].'</h2>
               <div class="user-content">
-                  <a href="#" style="border-radius: 10px 10px 0px 0px;">My profile</a>
+                  <a href="../controller/index.php?action=profile" style="border-radius: 10px 10px 0px 0px;">My profile</a>
+                  <a href="#">Cart</a>
                   <a href="../controller/index.php?action=logout" style="border-radius: 0px 0px 10px 10px;">Log out</a>
               </div>
           </div>';

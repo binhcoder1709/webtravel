@@ -284,6 +284,10 @@
               <div class="place-box-image">
                 <img src="../sources/R (1).jpg" alt="">
               </div>
+              <div class="backgr"></div>
+              <div class="plus">
+              <a href="#"><i class="fa-solid fa-plus"></i></a>
+              </div>
             </div>
             <div class="place-box-content" id="place-box">
               <div class="place-box-text">
@@ -302,6 +306,10 @@
               <div class="place-box-image">
                 <img src="../sources/R (2).jpg" alt="">
               </div>
+              <div class="backgr"></div>
+              <div class="plus">
+                <a href="#"><i class="fa-solid fa-plus"></i></a>
+              </div>
             </div>
             <div class="place-box-content" id="place-box">
               <div class="place-box-text">
@@ -319,6 +327,10 @@
               </div>
               <div class="place-box-image">
                 <img src="../sources/OIP.jpg" alt="">
+              </div>
+              <div class="backgr"></div>
+              <div class="plus">
+              <a href="#"><i class="fa-solid fa-plus"></i></a>
               </div>
             </div>
           </div>
