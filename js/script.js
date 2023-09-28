@@ -1,41 +1,19 @@
-// const backToTopButton = document.querySelector(".back-to-top");
+// const header = document.querySelector(".header");
 
-// // Bắt sự kiện cuộn của trang web
 // window.addEventListener("scroll", () => {
-//     // Nếu khoảng cách cuộn lớn hơn hoặc bằng 100px, thì hiển thị nút
-//     if (window.scrollY >= 10) {
-//         backToTopButton.style.display = "block";
-//     } else {
-//         backToTopButton.style.display = "none";
-//     }
+//   if (window.pageYOffset > 100) {
+//     header.style.backgroundColor = "#fff";
+//   } else {
+//     header.style.backgroundColor = "transparent";
+//   }
 // });
-
-// // Khi người dùng nhấp vào nút, cuộn trang lên đầu
-// backToTopButton.addEventListener("click", () => {
-//     window.scrollTo({ top: 0 });
-//     window.scrollTo({ top: 0 }, {
-//       duration: 2000,
-//       easing: "linear",
-//   });
-// });
-// Tạo nút cuộn lên đầu trang
-// const backToTopButton = document.querySelector(".back-to-top");
-
-// // Bắt sự kiện cuộn của trang web
-// window.addEventListener("scroll", () => {
-//     // Nếu khoảng cách cuộn lớn hơn hoặc bằng 100px, thì hiển thị nút
-//     if (window.scrollY >= 10) {
-//         backToTopButton.style.display = "block";
-//     } else {
-//         backToTopButton.style.display = "none";
-//     }
-// });
-
-// // Khi người dùng nhấp vào nút, cuộn trang lên đầu
-// backToTopButton.addEventListener("click", () => {
-//     window.scrollTo({ top: 0 });
-//     window.scrollTo({ top: 0 }, {
-//       duration: 2000,
-//       easing: "linear",
-//   });
-// });
+const header2 = document.querySelector(".header");
+const toggleClass = "is-sticky";
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll > 100) {
+    header2.classList.add(toggleClass);
+  } else {
+    header2.classList.remove(toggleClass);
+  }
+});
