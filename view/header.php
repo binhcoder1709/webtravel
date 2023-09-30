@@ -15,11 +15,11 @@
           <a href="../controller/index.php?action=home"><img src="../sources/2.png" alt=""></a>
         </div>
         <div class="function">
-          <a href="../controller/index.php?action=home">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Destinations</a>
+          <a href="../controller/index.php?action=home" class="function-item">Home</a>
+          <a href="#" class="function-item">About Us</a>
+          <a href="#" class="function-item">Destinations</a>
           <div class="function-dropdown">
-            <a href="#">Tour</a>
+            <a href="#" class="function-item">Tour</a>
             <div class="function-dropdown-content">
               <a href="#">Asia Travel</a>
               <a href="#">Europe Travel</a>
@@ -27,7 +27,8 @@
               <a href="#">Food Travel</a>
             </div>
           </div>
-          <a href="#">Our Team</a>
+          <a href="#" class="function-item">Our Team</a>
+          <div class="bar"></div>
         </div>
         <div class="lo-re">
           <?php
