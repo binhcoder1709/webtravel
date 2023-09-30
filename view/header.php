@@ -16,7 +16,7 @@
         </div>
         <div class="function">
           <a href="../controller/index.php?action=home" class="function-item">Home</a>
-          <a href="#" class="function-item">About Us</a>
+          <a href="#" class="function-item">Introduce</a>
           <a href="#" class="function-item">Destinations</a>
           <div class="function-dropdown">
             <a href="#" class="function-item">Tour</a>
