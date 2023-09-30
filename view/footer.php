@@ -90,31 +90,9 @@
             <a href="#">Term & Conditions</a>
           </div>
         </div>
-        <a href="#" class="back-to-top"><i class="fa-solid fa-chevron-up"></i></a>
+        <a href="#" id="back-to-top"><i class="fa-solid fa-chevron-up"></i></a>
       </div>
     </footer>
 </body>
 <script src="../js/script.js"></script>
-<script>
-  const backToTopButton = document.querySelector(".back-to-top");
-
-// Bắt sự kiện cuộn của trang web
-window.addEventListener("scroll", () => {
-    // Nếu khoảng cách cuộn lớn hơn hoặc bằng 100px, thì hiển thị nút
-    if (window.scrollY >= 200) {
-        backToTopButton.style.display = "block";
-    } else {
-        backToTopButton.style.display = "none";
-    }
-});
-
-// Khi người dùng nhấp vào nút, cuộn trang lên đầu
-backToTopButton.addEventListener("click", () => {
-    window.scrollTo({ top: 0});
-    window.scrollTo({ top: 0 }, {
-        duration: 1000,
-        easing: "ease-in-out",
-    });
-});
-</script>
 </html>

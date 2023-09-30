@@ -60,6 +60,9 @@ ob_start();
             // case 'profile':
             //     include "../view/profile.php";
             //     break;
+            case 'ourteam':
+                include "../view/ourteam.php";
+                break;
             default:
                 include "../view/home.php";
                 break;

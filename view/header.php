@@ -27,7 +27,7 @@
               <a href="#">Food Travel</a>
             </div>
           </div>
-          <a href="#" class="function-item">Our Team</a>
+          <a href="../controller/index.php?action=ourteam" class="function-item">Our Team</a>
           <div class="bar"></div>
         </div>
         <div class="lo-re">
