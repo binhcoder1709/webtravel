@@ -122,6 +122,12 @@
     font-size: larger;
     color: black;
 }
+.welcome-image img
+{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
 @media screen and (max-width: 1170px)
 {
     .welcome
@@ -483,12 +489,12 @@
     padding: 2px 7px;
     border-radius: 5px;
 }
-.place-box-content:hover .plus a
+.place-box-image:hover .plus a
 {
     display: block;
     transition: .3s ease-in-out;
 }
-.place-box-content:hover .backgr
+.backgr
 {
     background-color: black;
     width: 26.05%;
@@ -496,5 +502,10 @@
     position: absolute;
     margin-top: -230px;
     opacity: 0.7;
-    transition: .3s ease-in-out;
+    display: none;
+}
+.place-box-image:hover .backgr
+{
+    display: block;
+    transition: .3s;
 }

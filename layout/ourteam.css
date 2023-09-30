@@ -38,7 +38,7 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
 }
 .member-links
 {
@@ -68,6 +68,11 @@
 {
     display: block;
     transition: .3s ease-in-out;
+}
+.img:hover  img
+{
+    opacity: 0.5;
+    transition:  .3s ease-in-out;
 }
 .team-info
 {

@@ -17,10 +17,10 @@
         <div class="function">
           <a href="../controller/index.php?action=home" class="function-item">Home</a>
           <a href="#" class="function-item">Introduce</a>
-          <a href="#" class="function-item">Destinations</a>
+          <a href="#" class="function-item">Describe</a>
           <div class="function-dropdown">
-            <a href="#" class="function-item">Tour</a>
-            <div class="function-dropdown-content">
+            <a href="#" class="function-item" id="btn-drop">Tour</a>
+            <div class="function-dropdown-content" id="function-dropdown-content">
               <a href="#">Asia Travel</a>
               <a href="#">Europe Travel</a>
               <a href="#">Africa Travel</a>
@@ -34,7 +34,6 @@
           <?php
             if (isset($_SESSION['fullname'])&&($_SESSION['fullname']!=""))
             {
-              // echo '<img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg">';
               echo '    <div class="user-dropdown">
               <h2><img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg"> Hi, '.$_SESSION['fullname'].'</h2>
               <div class="user-content">
@@ -55,4 +54,5 @@
     </header>
 </body>
 <script src="../js/script.js"></script>
+<script src="../js/main.js"></script>
 </html>

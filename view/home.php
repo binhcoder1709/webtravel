@@ -115,7 +115,7 @@
           </div>
         </div>
         <div class="welcome-image">
-          <img src="../sources/tour-travel-img.jpg" alt="">
+          <img src="../sources/group_travel_app.webp" alt="">
         </div>
       </div>
       <div class="modern-beautiful">
@@ -282,10 +282,10 @@
               </div>
               <div class="place-box-image">
                 <img src="../sources/R (1).jpg" alt="">
-              </div>
-              <div class="backgr"></div>
+                <div class="backgr"></div>
               <div class="plus">
               <a href="#"><i class="fa-solid fa-plus"></i></a>
+              </div>
               </div>
             </div>
             <div class="place-box-content" id="place-box">
@@ -304,10 +304,10 @@
               </div>
               <div class="place-box-image">
                 <img src="../sources/R (2).jpg" alt="">
-              </div>
-              <div class="backgr"></div>
+                <div class="backgr"></div>
               <div class="plus">
                 <a href="#"><i class="fa-solid fa-plus"></i></a>
+              </div>
               </div>
             </div>
             <div class="place-box-content" id="place-box">
@@ -326,10 +326,10 @@
               </div>
               <div class="place-box-image">
                 <img src="../sources/OIP.jpg" alt="">
-              </div>
-              <div class="backgr"></div>
+                <div class="backgr"></div>
               <div class="plus">
               <a href="#"><i class="fa-solid fa-plus"></i></a>
+              </div>
               </div>
             </div>
           </div>

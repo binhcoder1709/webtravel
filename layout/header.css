@@ -136,10 +136,6 @@ header
         }
     }
 }
-.function-dropdown:hover .function-dropdown-content
-{
-    display: flex;
-}
 .lo-re
 {
     border-left: 1px solid gray;

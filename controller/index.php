@@ -57,9 +57,9 @@ ob_start();
             case 'home':
                 include "../view/home.php";
                 break;
-            // case 'profile':
-            //     include "../view/profile.php";
-            //     break;
+            case 'profile':
+                include "../view/profile.html";
+                break;
             case 'ourteam':
                 include "../view/ourteam.php";
                 break;
