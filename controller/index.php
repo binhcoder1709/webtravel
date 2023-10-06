@@ -63,6 +63,12 @@ ob_start();
             case 'ourteam':
                 include "../view/ourteam.php";
                 break;
+            case 'describe':
+                include "../view/describe.html";
+                break;
+            case 'introduce':
+                include "../view/introduce.html";
+                break;
             default:
                 include "../view/home.php";
                 break;

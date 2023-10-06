@@ -10,7 +10,7 @@
 </head>
 <body>
     <section class="section">
-      <div class="carousel">
+      <!-- <div class="carousel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -35,7 +35,10 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      </div> -->
+      <div class="test">
+        <video src="../sources/video (1080p).mp4" id="video" autoplay muted loop></video>
+    </div>
       <div class="book-opt">
         <form action="">
           <div class="destinations">

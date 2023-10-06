@@ -10,49 +10,58 @@
 </head>
 <body>
 <header class="header">
-      <div class="header-content">
-        <div class="logo">
-          <a href="../controller/index.php?action=home"><img src="../sources/2.png" alt=""></a>
-        </div>
-        <div class="function">
-          <a href="../controller/index.php?action=home" class="function-item">Home</a>
-          <a href="#" class="function-item">Introduce</a>
-          <a href="#" class="function-item">Describe</a>
-          <div class="function-dropdown">
-            <a href="#" class="function-item" id="btn-drop">Tour</a>
-            <div class="function-dropdown-content" id="function-dropdown-content">
-              <a href="#">Asia Travel</a>
-              <a href="#">Europe Travel</a>
-              <a href="#">Africa Travel</a>
-              <a href="#">Food Travel</a>
+        <div class="header-content">
+            <div class="logo">
+                <a href="#">
+                    <img src="../sources/Tommytravel-removebg-preview.png" alt="">
+                    <div class="logo-text">
+                        <span style="--color: #ffffff; --delay:0s;">t</span>
+                        <span style="--color: #ffffff; --delay:0.25s;">o</span>
+                        <span style="--color: #ffffff; --delay:0.5s;">m</span>
+                        <span style="--color: #ffffff; --delay:0.75s;">m</span>
+                        <span style="--color: #ffffff; --delay:1s;">y</span>
+                        <span style="--color: #ffffff; --delay:1.25s;">t</span>
+                        <span style="--color: #ffffff; --delay:1.5s;">r</span>
+                        <span style="--color: #ffffff; --delay:1.75s;">a</span>
+                        <span style="--color: #ffffff; --delay:2s;">v</span>
+                        <span style="--color: #ffffff; --delay:2.25s;">e</span>
+                        <span style="--color: #ffffff; --delay:2.5s;">l</span>
+                    </div>
+                </a>
             </div>
-          </div>
-          <a href="../controller/index.php?action=ourteam" class="function-item">Our Team</a>
-          <div class="bar"></div>
+            <div class="function-login">
+                <div class="function">
+                    <a href="../controller/index.php?action=home">Home</a>
+                    <a href="./controller/index.php?action=introduce">Introduce</a>
+                    <a href="../controller/index.php?action=describe">Describe</a>
+                    <a href="#">Tour</a>
+                    <a href="../controller/index.php?action=ourteam">Ourteam</a>
+                </div>
+                <?php
+                    if(isset($_SESSION['fullname'])&&($_SESSION['fullname']!=""))
+                    {
+                        echo'                <div class="login-drop">
+                        <a href="#" style="width: 50px">'.$_SESSION['fullname'].'</a>
+                        <div class="login-drop_cont">
+                            <a href="#">My profile</a>
+                            <a href="../controller/index.php?action=logout">Log out</a>
+                        </div>
+                    </div>';
+                    }
+                    else
+                    {
+                        echo'                <div class="login">
+                        <a href="../controller/index.php?action=login">Login <i class="fa-regular fa-user"></i></a>
+                    </div>';
+                    }
+                ?>
+            </div>
         </div>
-        <div class="lo-re">
-          <?php
-            if (isset($_SESSION['fullname'])&&($_SESSION['fullname']!=""))
-            {
-              echo '    <div class="user-dropdown">
-              <h2><img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg"> Hi, '.$_SESSION['fullname'].'</h2>
-              <div class="user-content">
-                  <a href="../controller/index.php?action=profile" style="border-radius: 10px 10px 0px 0px;">My profile</a>
-                  <a href="#">Cart</a>
-                  <a href="../controller/index.php?action=logout" style="border-radius: 0px 0px 10px 10px;">Log out</a>
-              </div>
-          </div>';
-            }
-            else
-            {
-              echo '          <a href="../controller/index.php?action=login"><i class="fa-solid fa-lock"></i> Login</a>
-              <a href="../controller/index.php?action=signup"><i class="fa-solid fa-registered"></i> Register</a>';
-            }
-          ?>
-        </div>
-      </div>
     </header>
 </body>
 <script src="../js/script.js"></script>
-<script src="../js/main.js"></script>
+<script src="../js/drop.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

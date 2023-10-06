@@ -26,6 +26,11 @@
     align-items: center;
     flex-direction: column;
 }
+.test video
+{
+    /* background: url(../sources/video.mp4); */
+    width: 100%;
+}
 .book-opt
 {
     background-color: rgb(247, 240, 240);

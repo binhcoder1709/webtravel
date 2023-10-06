@@ -1,0 +1,26 @@
+html
+{
+    padding-top: 100px;
+}
+.introduce
+{
+    display: flex;
+    width: 100%;
+}
+.introduce-slide
+{
+    width: 20%;
+    height: 645px;
+    background-color: aqua;
+}
+.introduce-main
+{
+    width: 60%;
+    overflow-y: scroll;
+}
+.introduce-aside
+{
+    width: 20%;
+    height: 645px;
+    background-color: aquamarine;
+}

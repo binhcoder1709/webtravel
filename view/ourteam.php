@@ -42,7 +42,7 @@
             </div>
             <div class="team-box">
                 <div class="img">
-                    <img src="../sources/382873293_1037882540699049_679134853310162556_n.jpg" alt="">
+                    <img src="../sources/382873293_1037882540699049_679134853310162556_n.jpg" alt="" style="object-position: center;">
                     <div class="member-links">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
