@@ -38,6 +38,20 @@
       </div> -->
       <div class="test">
         <video src="../sources/video (1080p).mp4" id="video" autoplay muted loop></video>
+        <div class="order-box">
+          <form action="#">
+          <div class="from-to"> 
+            <div class="from">
+              <label for="from">From</label>
+              <input type="text" placeholder="Enter the origin place">
+            </div>
+            <div class="to">
+              <label for="to">To</label>
+              <input type="text" placeholder="Enter the destination place">
+            </div>
+          </div>
+          </form>
+        </div>
     </div>
       <div class="book-opt">
         <form action="">
@@ -125,57 +139,78 @@
         <h3>Modern & Beautiful</h3>
         <h1>Our Most Popular Adventures</h1>
         <div class="modern-box">
+          <a href="#">
+          <div class="box">
+                      <div class="box-image">
+                        <img src="../sources/asia.webp" alt="">
+                      </div>
+                      <div class="box-text">
+                        <h1>go to Thailand</h1>
+                        <h3 id="modern-span_1">from</h3>
+                        <h2 id="modern-span_2">$200</h2>
+                      </div>
+                    </div>
+          </a>
+          <a href="#">
             <div class="box">
-              <div class="box-text">
-                <div class="box-text-1">
-                  <a href="#">Travel to the Western Europe 3 days 2 nights</a>
-                </div>
-                <div class="box-text-2">
-                  <span><i class="fa-solid fa-location-dot"></i> France</span>
-                </div>
-                <div class="box-text-3">
-                  <h4>$1000</h4>
-                  <a href="#">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-              </div>
-              <div class="box-image">
-                <img src="../sources/R.jpg" alt="">
-              </div>
-            </div>
-            <div class="box">
-              <div class="box-text">
-                <div class="box-text-1">
-                  <a href="#">Travel to the Western Europe 3 days 2 nights</a>
-                </div>
-                <div class="box-text-2">
-                  <span><i class="fa-solid fa-location-dot"></i> Africa</span>
-                </div>
-                <div class="box-text-3">
-                  <h4>$570</h4>
-                  <a href="#">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-              </div>
-              <div class="box-image">
-                <img src="../sources/africa.jpg" alt="">
-              </div>
-            </div>
-            <div class="box">
-              <div class="box-text">
-                <div class="box-text-1">
-                  <a href="#">Travel to the Western Europe 3 days 2 nights</a>
-                </div>
-                <div class="box-text-2">
-                  <span><i class="fa-solid fa-location-dot"></i> ThaiLand</span>
-                </div>
-                <div class="box-text-3">
-                  <h4>$800</h4>
-                  <a href="#">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-              </div>
-              <div class="box-image">
-                <img src="../sources/asia.webp" alt="">
-              </div>
-            </div>
+                      <div class="box-image">
+                        <img src="../sources/asia.webp" alt="">
+                      </div>
+                      <div class="box-text">
+                        <h1>go to Thailand</h1>
+                          <h3 id="modern-span_1">from</h3>
+                          <h2 id="modern-span_2">$200</h2>
+                      </div>
+                    </div>
+          </a>
+          <a href="#">
+          <div class="box">
+                      <div class="box-image">
+                        <img src="../sources/asia.webp" alt="">
+                      </div>
+                      <div class="box-text">
+                        <h1>go to Thailand</h1>
+                        <h3 id="modern-span_1">from</h3>
+                        <h2 id="modern-span_2">$200</h2>
+                      </div>
+                    </div>
+          </a>
+          <a href="#">
+          <div class="box">
+                      <div class="box-image">
+                        <img src="../sources/asia.webp" alt="">
+                      </div>
+                      <div class="box-text">
+                        <h1>go to Thailand</h1>
+                        <h3 id="modern-span_1">from</h3>
+                        <h2 id="modern-span_2">$200</h2>
+                      </div>
+                    </div>
+          </a>
+          <a href="#">
+          <div class="box">
+                      <div class="box-image">
+                        <img src="../sources/asia.webp" alt="">
+                      </div>
+                      <div class="box-text">
+                        <h1>go to Thailand</h1>
+                        <h3 id="modern-span_1">from</h3>
+                        <h2 id="modern-span_2">$200</h2>
+                      </div>
+                    </div>
+          </a>
+          <a href="#">
+          <div class="box">
+                      <div class="box-image">
+                        <img src="../sources/asia.webp" alt="">
+                      </div>
+                      <div class="box-text">
+                        <h1>go to Thailand</h1>
+                        <h3 id="modern-span_1">from</h3>
+                        <h2 id="modern-span_2">$200</h2>
+                      </div>
+                    </div>
+          </a>
         </div>
       </div>
       <div class="testimonials">

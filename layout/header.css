@@ -55,6 +55,11 @@
     display: flex;
     align-items: center;
 }
+.logo a:hover
+{
+    text-decoration: none;
+    color: black;
+}
 .header
 {
     backdrop-filter: blur(20px);
@@ -90,18 +95,43 @@
     color: black;
     text-decoration: none;
 }
+.function
+{
+    display: flex;
+}
 .function a
 {
-    padding: 10px 10px;
-    border-radius: 10px;    
+    padding: 0px 10px;
+    border-radius: 10px;
 }
 .function a:hover
 {
-    color: white;
+    color: orangered;
     text-decoration: none;
-    background-color: gray;
-    border-radius: 10px;
     transition: .3s ease;
+}
+.function-dropdown-cont
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: none;
+}
+.function-dropdown-cont a
+{
+    padding: 10px 10px;
+    border-radius: 0px;
+}
+.function-dropdown-cont a:hover
+{
+    background-color: gray;
+    color: white;
+}
+.function-dropdown:hover .function-dropdown-cont
+{
+    display: flex;
 }
 .login a
 {

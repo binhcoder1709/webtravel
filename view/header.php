@@ -12,7 +12,7 @@
 <header class="header">
         <div class="header-content">
             <div class="logo">
-                <a href="#">
+                <a href="../controller/index.php?action=home">
                     <img src="../sources/Tommytravel-removebg-preview.png" alt="">
                     <div class="logo-text">
                         <span style="--color: #ffffff; --delay:0s;">t</span>
@@ -32,16 +32,24 @@
             <div class="function-login">
                 <div class="function">
                     <a href="../controller/index.php?action=home">Home</a>
-                    <a href="./controller/index.php?action=introduce">Introduce</a>
+                    <a href="../controller/index.php?action=introduce">Introduce</a>
                     <a href="../controller/index.php?action=describe">Describe</a>
-                    <a href="#">Tour</a>
+                    <div class="function-dropdown">
+                        <a href="#">Tour</a>
+                        <div class="function-dropdown-cont">
+                            <a href="../controller/index.php?action=dlnd" style="border-radius: 10px 10px 0px 0px;">Du lich nghi duong</a>
+                            <a href="#">Du lich bieu tuong van hoa</a>
+                            <a href="#">Du lich giai tri</a>
+                            <a href="#" style="border-radius: 0px 0px 10px 10px;">@@@</a>
+                        </div>
+                    </div>
                     <a href="../controller/index.php?action=ourteam">Ourteam</a>
                 </div>
                 <?php
                     if(isset($_SESSION['fullname'])&&($_SESSION['fullname']!=""))
                     {
                         echo'                <div class="login-drop">
-                        <a href="#" style="width: 50px">'.$_SESSION['fullname'].'</a>
+                        <a href="#" style="width: 50px">'.$_SESSION['fullname'].' <i class="fa-solid fa-user-check"></i></a>
                         <div class="login-drop_cont">
                             <a href="#">My profile</a>
                             <a href="../controller/index.php?action=logout">Log out</a>
@@ -51,7 +59,7 @@
                     else
                     {
                         echo'                <div class="login">
-                        <a href="../controller/index.php?action=login">Login <i class="fa-regular fa-user"></i></a>
+                        <a href="../controller/index.php?action=login">Login <i class="fa-solid fa-user-xmark"></i></a>
                     </div>';
                     }
                 ?>

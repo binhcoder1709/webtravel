@@ -69,6 +69,9 @@ ob_start();
             case 'introduce':
                 include "../view/introduce.html";
                 break;
+            case 'dlnd':
+                include "../view/dlnd.php";
+                break;
             default:
                 include "../view/home.php";
                 break;

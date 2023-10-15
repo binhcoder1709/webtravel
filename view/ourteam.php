@@ -70,7 +70,7 @@
             </div>
             <div class="team-box">
                 <div class="img">
-                    <img src="../sources/280086317_718083016050425_3655407196902856455_n.jpg" alt="">
+                    <img src="../sources/386476828_1013842143095948_6764209320306230311_n.jpg" alt="" style="object-position: center; object-fit: cover;">
                     <div class="member-links">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
