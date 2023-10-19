@@ -1,421 +1,352 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="../layout/dlnd.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-</head>
-<body>
-    
-<!-- header section starts  -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="shortcut icon" href="../sources/favicon.png" type="image/png">
 
-<div class="dlnd">
-    <section class="home" id="home">
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="../layout/swiper-bundle.min.css">
 
-        <div class="content">
-            <h3>adventure is worthwhile</h3>
-            <p>dicover new places with us, adventure awaits</p>
-            <a href="#" class="btn">discover more</a>
-        </div>
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../layout/styles.css">
+
+        <title>Responsive Website Travel</title>
+    </head>
+    <body>
+        <div class="dlnd">
     
-        <div class="video-container">
-            <video src="../sources/videodau1.mp4" id="video-slider" loop autoplay muted></video>
-        </div>
+            <main class="main">
+                <!--==================== HOME ====================-->
+                <section class="home" id="home">
+                    <img src="../sources/du-lich-kham-pha.jpeg" alt="" class="home__img">
     
-    </section>
+                    <div class="home__container container grid">
+                        <div class="home__data">
+                            <span class="home__data-subtitle">ADVENTURE IS WORTHWHILE</span>
+                            <h1 class="home__data-title">Dicover New Places With Us<br> Best <b> Adventure Awaits<br> </b></h1>
+                            <a href="#" class="button">Dicover</a>
     
-    <!-- home section ends -->
+                        </div>
     
-    <!-- book section starts  -->
+                        <div class="home__social">
+                            <a href="https://www.facebook.com/tuitenB/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_2408_binh/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/phamvan37277461" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
     
-    <section class="book" id="book">
+                        <div class="home__info">
+                            <div>
+                                <span class="home__info-title">5 best places to visit</span>
+                                <a href="" class="button button--flex button--link home__info-button">
+                                    More <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
     
-        <h1 class="heading">
-            <span>b</span>
-            <span>o</span>
-            <span>o</span>
-            <span>k</span>
-            <span class="space"></span>
-            <span>n</span>
-            <span>o</span>
-            <span>w</span>
-        </h1>
-    
-        <div class="row">
-    
-            <div class="image">
-                <img src="../sources/alo2.jpg" alt="">
-            </div>
-    
-            <form action="">
-                <div class="inputBox">
-                    <h3>where to</h3>
-                    <input type="text" placeholder="place name">
-                </div>
-                <div class="inputBox">
-                    <h3>how many</h3>
-                    <input type="number" placeholder="number of guests">
-                </div>
-                <div class="inputBox">
-                    <h3>arrivals</h3>
-                    <input type="date">
-                </div>
-                <div class="inputBox">
-                    <h3>leaving</h3>
-                    <input type="date">
-                </div>
-                <input type="submit" class="btn" value="book now">
-            </form>
-    
-        </div>
-    
-    </section>
-    
-    <!-- book section ends -->
-    
-    <!-- packages section starts  -->
-    
-    <section class="packages" id="packages">
-    
-        <h1 class="heading">
-            <span>p</span>
-            <span>a</span>
-            <span>c</span>
-            <span>k</span>
-            <span>a</span>
-            <span>g</span>
-            <span>e</span>
-            <span>s</span>
-        </h1>
-    
-        <div class="box-container">
-    
-            <div class="box">
-                <img src="../sources/Son_Doong_Cave_DB_(3).jpg" alt="">
-                <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> son doong cave </h3>
-                    <p>Son Doong cave is one of the world's largest natural caves in Viet Nam!</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="../sources/p-4.jpg" alt="">
-                <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> Eiffel Tower </h3>
-                    <p>The tower is the focal point for New Year's Eve and Bastille Day!</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="../sources/tqdb.jpg" alt="">
-                <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>Great Wall</h3>
-                    <p>Great Wall is a very famous place and a symbol of China!</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="../sources/maldives.jpg" alt="">
-                <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>Maldives</h3>
-                    <p>Asia's smallest country is known as a tourist paradise!</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="../sources/thap-nghieng-pisa-5.jpg" alt="">
-                <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>Leaning Tower of Pisa</h3>
-                    <p>The Leaning Tower of Pisa is a bell tower in the city of Pisa (Italy) that was started in 1173!</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="../sources/eypt.jpg" alt="">
-                <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> eypt </h3>
-                    <p>Egyptian pyramids are ancient pyramid-shaped stone structures in Egypt.!</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
-                </div>
-            </div>
-    
-        </div>
-    
-    </section>
-    
-    <!-- packages section ends -->
-    
-    <!-- services section starts  -->
-    
-    <section class="services" id="services">
-    
-        <h1 class="heading">
-            <span>s</span>
-            <span>e</span>
-            <span>r</span>
-            <span>v</span>
-            <span>i</span>
-            <span>c</span>
-            <span>e</span>
-            <span>s</span>
-        </h1>
-    
-        <div class="box-container">
-    
-            <div class="box">
-                <i class="fas fa-hotel"></i>
-                <h3>affordable hotels</h3>
-                <p>There is always a room and a shuttle to the hotel</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-utensils"></i>
-                <h3>food and drinks</h3>
-                <p>Serving all meals throughout the day, there is a bar serving drinks</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-bullhorn"></i>
-                <h3>safty guide</h3>
-                <p>There is a tour guide who will introduce and pay attention to tourists</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-globe-asia"></i>
-                <h3>around the world</h3>
-                <p>Take you on the best exploration journey in the world</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-plane"></i>
-                <h3>fastest travel</h3>
-                <p>The trip is fast but still ensures fun for you and also ensures safety</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-hiking"></i>
-                <h3>adventures</h3>
-                <p>Adventure trips will take you to extremely interesting places and immerse yourself in nature</p>
-            </div>
-    
-        </div>
-    
-    </section>
-    
-    <!-- services section ends -->
-    
-    <!-- gallery section starts  -->
-    
-    <section class="gallery" id="gallery">
-    
-        <h1 class="heading">
-            <span>g</span>
-            <span>a</span>
-            <span>l</span>
-            <span>l</span>
-            <span>e</span>
-            <span>r</span>
-            <span>y</span>
-        </h1>
-    
-        <div class="box-container">
-    
-            <div class="box">
-                <img src="../sources/Son_Doong_Cave_DB_(3).jpg" alt="">
-                <div class="content">
-                    <h3>Son Doong Cave</h3>
-                    <p>VIET NAM</p>
-                    <a href="https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng" class="btn">see more</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="../sources/p-4.jpg" alt="">
-                <div class="content">
-                    <h3>Eiffel Tower</h3>
-                    <p>FRANCE</p>
-                    <a href="https://en.wikipedia.org/wiki/Eiffel_Tower" class="btn">see more</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="../sources/tqdb.jpg" alt="">
-                <div class="content">
-                    <h3>Great Wall</h3>
-                    <p>CHINA</p>
-                    <a href="https://vi.wikipedia.org/wiki/V%E1%BA%A1n_L%C3%BD_Tr%C6%B0%E1%BB%9Dng_Th%C3%A0nh" class="btn">see more</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="../sources/maldives.jpg" alt="">
-                <div class="content">
-                    <h3>Maldives</h3>
-                    <p>Republic of Maldives</p>
-                    <a href="https://vi.wikipedia.org/wiki/Maldives" class="btn">see more</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="../sources/thap-nghieng-pisa-5.jpg" alt="">
-                <div class="content">
-                    <h3>Leaning Tower of Pisa</h3>
-                    <p>ITALY</p>
-                    <a href="https://vi.wikipedia.org/wiki/Th%C3%A1p_nghi%C3%AAng_Pisa" class="btn">see more</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="../sources/eypt.jpg" alt="">
-                <div class="content">
-                    <h3>Eypt</h3>
-                    <p>EGYPT</p>
-                    <a href="https://vi.wikipedia.org/wiki/Kim_t%E1%BB%B1_th%C3%A1p_Ai_C%E1%BA%ADp" class="btn">see more</a>
-                </div>
-            </div>
-    
-            </div>
-    
-        </div>
-    
-    </section>
-    
-    <!-- gallery section ends -->
-    
-    <!-- review section starts  -->
-    
-    <section class="review" id="review">
-    
-        <h1 class="heading">
-            <span>r</span>
-            <span>e</span>
-            <span>v</span>
-            <span>i</span>
-            <span>e</span>
-            <span>w</span>
-        </h1>
-    
-        <div class="swiper-container review-slider">
-    
-            <div class="swiper-wrapper">
-    
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="../sources/me.jpg" alt="">
-                        <h3>pham van binh</h3>
-                        <p>rat tot</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <div class="home__info-overlay">
+                                <img src="../sources/Son_Doong_Cave_DB_(3).jpg" alt="" class="home__info-img">
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
+    
+                <!--==================== ABOUT ====================-->
+                <section class="about section" id="about">
+                    <div class="about__container container grid">
+                        <div class="about__data">
+                            <h2 class="section__title about__title"><br>  Dicover New Places With Us Adventure Awaits</h2>
+                            <p class="about__description">You can find the most beautiful and pleasant places at the best 
+                                prices with special discounts, you choose the place we will guide you all the way to wait, get your 
+                                place now.
+                            </p>
+                            <a href="#" class="button">Reserve a place</a>
+                        </div>
+    
+                        <div class="about__img">
+                            <div class="about__img-overlay">
+                                <img src="../sources/pd1.jpg" alt="" class="about__img-one">
+                            </div>
+    
+                            <div class="about__img-overlay">
+                                <img src="../sources/pd2.jpg" alt="" class="about__img-two">
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 
-        </div>
+                <!--==================== DISCOVER ====================-->
+                <section class="discover section" id="discover">
+                    <h2 class="section__title">Discover the most <br> attractive places</h2>
+                    
+                    <div class="discover__container container swiper-container">
+                        <div class="swiper-wrapper">
+                            <!--==================== DISCOVER 1 ====================-->
+                            <div class="discover__card swiper-slide">
+                                <img src="../sources/pisa.jpg" alt="" class="discover__img">
+                                <div class="discover__data">
+                                    <h2 class="discover__title">Leaning Tower of Pisa</h2>
+                                    <span class="discover__description">24 tours available</span>
+                                </div>
+                            </div>
     
-    </section>
+                            <!--==================== DISCOVER 2 ====================-->
+                            <div class="discover__card swiper-slide">
+                                <img src="../sources/eiffel.jpeg" alt="" class="discover__img">
+                                <div class="discover__data">
+                                    <h2 class="discover__title">Eiffel Tower</h2>
+                                    <span class="discover__description">15 tours available</span>
+                                </div>
+                            </div>
     
-    <!-- review section ends -->
+                            <!--==================== DISCOVER 4 ====================-->
+                            <div class="discover__card swiper-slide">
+                                <img src="../sources/sd2.jpg" alt="" class="discover__img">
+                                <div class="discover__data">
+                                    <h2 class="discover__title">Son Doong Cave</h2>
+                                    <span class="discover__description">23 tours available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
     
-    <!-- contact section starts  -->
+                <!--==================== EXPERIENCE ====================-->
+                <section class="experience section">
+                    <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
     
-    <section class="contact" id="contact">
+                    <div class="experience__container container grid">
+                        <div class="experience__content grid">
+                            <div class="experience__data">
+                                <h2 class="experience__number">20</h2>
+                                <span class="experience__description">Year <br> Experience</span>
+                            </div>
+    
+                            <div class="experience__data">
+                                <h2 class="experience__number">95</h2>
+                                <span class="experience__description">Complete <br> tours</span>
+                            </div>
+    
+                            <div class="experience__data">
+                                <h2 class="experience__number">777+</h2>
+                                <span class="experience__description">Tourist <br> Destination</span>
+                            </div>
+                        </div>
+    
+                        <div class="experience__img grid">
+                            <div class="experience__overlay">
+                                <img src="../sources/tqdb.jpg" alt="" class="experience__img-one">
+                            </div>
+                            
+                            <div class="experience__overlay">
+                                <img src="../sources/pg1.webp" alt="" class="experience__img-two">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+                <!--==================== VIDEO ====================-->
+                <section class="video section">
+                    <h2 class="section__title">Video Tour</h2>
+    
+                    <div class="video__container container">
+                        <p class="video__description">Find out more with our video of the most beautiful and 
+                            pleasant places for you and your family.
+                        </p>
+    
+                        <div class="video__content">
+                            <video id="video-file">
+                                <source src="../sources/eiffel vd.mp4" type="video/mp4">
+                            </video>
+    
+                            <button class="button button--flex video__button" id="video-button">
+                                <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+    
+                <!--==================== PLACES ====================-->
+                <section class="place section" id="place">
+                    <h2 class="section__title">Choose Your Place</h2>
+    
+                    <div class="place__container container grid">
+                        <!--==================== PLACES CARD 1 ====================-->
+                        <div class="place__card">
+                            <img src="../sources/sdd.jpeg" alt="" class="place__img">
+                            
+                            <div class="place__content">
+                                <span class="place__rating">
+                                    <i class="ri-star-line place__rating-icon"></i>
+                                    <span class="place__rating-number">4,8</span>
+                                </span>
+    
+                                <div class="place__data">
+                                    <h3 class="place__title">Son Doong Cave</h3>
+                                    <span class="place__subtitle">VIET NAM</span>
+                                    <span class="place__price">$2499</span>
+                                </div>
+                            </div>
+    
+                            <button class="button button--flex place__button">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+    
+                        <!--==================== PLACES CARD 2 ====================-->
+                        <div class="place__card">
+                            <img src="../sources/p-4.jpg" alt="" class="place__img">
+                            
+                            <div class="place__content">
+                                <span class="place__rating">
+                                    <i class="ri-star-line place__rating-icon"></i>
+                                    <span class="place__rating-number">5,0</span>
+                                </span>
+    
+                                <div class="place__data">
+                                    <h3 class="place__title">Eiffel Tower</h3>
+                                    <span class="place__subtitle">FRANCE</span>
+                                    <span class="place__price">$1599</span>
+                                </div>
+                            </div>
+    
+                            <button class="button button--flex place__button">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+    
+                        <!--==================== PLACES CARD 3 ====================-->
+                        <div class="place__card">
+                            <img src="../sources/vltt.jpg" alt="" class="place__img">
+                            
+                            <div class="place__content">
+                                <span class="place__rating">
+                                    <i class="ri-star-line place__rating-icon"></i>
+                                    <span class="place__rating-number">4,9</span>
+                                </span>
+    
+                                <div class="place__data">
+                                    <h3 class="place__title">Great Wall</h3>
+                                    <span class="place__subtitle">CHINA</span>
+                                    <span class="place__price">$3499</span>
+                                </div>
+                            </div>
+    
+                            <button class="button button--flex place__button">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+    
+                        <!--==================== PLACES CARD 4 ====================-->
+                        <div class="place__card">
+                            <img src="../sources/eypt.jpg" alt="" class="place__img">
+                            
+                            <div class="place__content">
+                                <span class="place__rating">
+                                    <i class="ri-star-line place__rating-icon"></i>
+                                    <span class="place__rating-number">4,8</span>
+                                </span>
+    
+                                <div class="place__data">
+                                    <h3 class="place__title">Eupt</h3>
+                                    <span class="place__subtitle">EGYPT</span>
+                                    <span class="place__price">$2499</span>
+                                </div>
+                            </div>
+    
+                            <button class="button button--flex place__button">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+    
+                        <!--==================== PLACES CARD 5 ====================-->
+                        <div class="place__card">
+                            <img src="../sources/thap-nghieng-pisa-5 (2).jpg" alt="" class="place__img">
+                            
+                            <div class="place__content">
+                                <span class="place__rating">
+                                    <i class="ri-star-line place__rating-icon"></i>
+                                    <span class="place__rating-number">4,8</span>
+                                </span>
+    
+                                <div class="place__data">
+                                    <h3 class="place__title">Leaning Tower of Pisa</h3>
+                                    <span class="place__subtitle">ITALY</span>
+                                    <span class="place__price">$1999</span>
+                                </div>
+                            </div>
+    
+                            <button class="button button--flex place__button">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+    
+                <!--==================== SUBSCRIBE ====================-->
+                <section class="subscribe section">
+                    <div class="subscribe__bg">
+                        <div class="subscribe__container container">
+                            <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                            <p class="subscribe__description">Subscribe to our newsletter and get a 
+                                special 30% discount.
+                            </p>
         
-        <h1 class="heading">
-            <span>c</span>
-            <span>o</span>
-            <span>n</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>t</span>
-        </h1>
-    
-        <div class="row">
-    
-            <div class="image">
-                <img src="../sources/7.jpg" alt="">
-            </div>
-    
-            <form action="">
-                <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                </div>
-                <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="subject">
-                </div>
-                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" class="btn" value="send message">
-            </form>
-    
-        </div>
+                            <form action="" class="subscribe__form">
+                                <input type="text" placeholder="Enter email" class="subscribe__input">
         
-    </section>
+                                <button class="button">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                
+                <!--==================== SPONSORS ====================-->
+                <section class="sponsor section">
+                    <div class="sponsor__container container grid">
+                        <div class="sponsor__content">
+                            <img src="../sources/sponsors1.png" alt="" class="sponsor__img">
+                        </div>
+                        <div class="sponsor__content">
+                            <img src="../sources/sponsors2.png" alt="" class="sponsor__img">
+                        </div>
+                        <div class="sponsor__content">
+                            <img src="../sources/sponsors3.png" alt="" class="sponsor__img">
+                        </div>
+                        <div class="sponsor__content">
+                            <img src="../sources/sponsors4.png" alt="" class="sponsor__img">
+                        </div>
+                        <div class="sponsor__content">
+                            <img src="../sources/sponsors5.png" alt="" class="sponsor__img">
+                        </div>
+                    </div>
+                </section>
+            </main>
     
-    <!-- contact section ends -->
-    
-    <!-- brand section  -->
-    <section class="brand-container">
-    
-        <div class="swiper-container brand-slider">
-            <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="../sources/2.jpg" alt=""></div>
+             <!--========== SCROLL UP ==========-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-line scrollup__icon"></i>
+            </a>
         </div>
-    
-    </section>
-    
-    <!-- footer section  -->
-    
-</div>
-</body>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="../js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="../js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="../js/main_2.js"></script>
+    </body>
 </html>

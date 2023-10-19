@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../layout/header.css">
     <link rel="icon" href="../sources/2.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
 <body>
 <header class="header">
@@ -39,7 +39,7 @@
                         <div class="function-dropdown-cont">
                             <a href="../controller/index.php?action=dlnd" style="border-radius: 10px 10px 0px 0px;">Du lich nghi duong</a>
                             <a href="#">Du lich bieu tuong van hoa</a>
-                            <a href="#">Du lich giai tri</a>
+                            <a href="../controller/index.php?action=dlgt">Du lich giai tri</a>
                             <a href="#" style="border-radius: 0px 0px 10px 10px;">@@@</a>
                         </div>
                     </div>

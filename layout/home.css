@@ -9,11 +9,6 @@
         opacity: 1;
     }
 }
-*
-{
-    margin: 0;
-    padding: 0;
-}
 :root
 {
     --transition-300: all 300ms ease-in-out;
@@ -56,14 +51,14 @@
 {
     width: 200px;
     border: none;
-    padding: 5px;
+    padding: 10px;
     box-shadow: 0px 1px 0px 0px;
     outline: none;
 }
 .book-opt form input
 {
     width: 200px;
-    padding: 5px;
+    padding: 10px;
     border: none;
     box-shadow: 0px 1px 0px 0px;
     outline: none;
@@ -135,39 +130,6 @@
     height: 450px;
     object-fit: cover;
 }
-@media screen and (max-width: 1170px)
-{
-    .welcome
-    {
-        display: flex;
-        flex-direction: column;
-        /* background-color: aqua; */
-        height: auto;
-        padding: 20px 0px;
-    }
-    .welcome-text
-    {
-        width: 90%;
-    }
-    .welcome-text-3
-    {
-        width: 100%;
-    }
-    .welcome h3
-    {
-        text-align: center;
-    }
-    .book-opt
-    {
-        background-color: rgb(247, 240, 240);
-    }
-    .book-opt form
-    {
-        display: flex;
-        width: 100%;
-        gap: 0px;
-    }   
-}
 .modern-beautiful
 {
     background: url(../sources/scandinavian-mountains-hero.jpg) no-repeat;
@@ -180,16 +142,18 @@
     padding: 30px 0px;
     height: auto;
     background: white;
+    gap: 10px;
 }
 .modern-beautiful h3
 {
-    font-size: large;
+    font-size: larger;
     font-family: cursive;
     color: #f5754a;
 }
 .modern-beautiful h1
 {
     color: gray;
+    font-size: xx-large;
 }
 .modern-box
 {
@@ -283,7 +247,11 @@
 {
     font-family: cursive;
     color: #f5754a;
-    font-size: large;
+    font-size: larger;
+}
+.testimonials-text h1
+{
+    font-size: xx-large;
 }
 .testimonials-box
 {
@@ -351,6 +319,10 @@
     font-family: cursive;
     color: #f5754a;
 }
+.among-the-all h1
+{
+    font-size: xx-large;
+}
 .among-the-all-content
 {
     display: flex;
@@ -372,11 +344,14 @@
 .among-text
 {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .among-text p
 {
     color: gray;
-    font-size: smaller;
+    font-size: medium;
 }
 .among-text a
 {
@@ -463,8 +438,8 @@
 {
     display: none;
     position: absolute;
-    margin-left: 180px;
-    margin-top: -120px;
+    margin-left: 190px;
+    margin-top: -125px;
     color: white;
     background-color: #f44c28;
     padding: 2px 7px;
@@ -478,10 +453,10 @@
 .backgr
 {
     background-color: black;
-    width: 26.05%;
+    width: 27.3%;
     height: 230px;
     position: absolute;
-    margin-top: -230px;
+    margin-top: -234px;
     opacity: 0.7;
     display: none;
 }
@@ -489,4 +464,8 @@
 {
     display: block;
     transition: .3s;
+}
+.place-ads img
+{
+    width: 60%;
 }

@@ -72,6 +72,9 @@ ob_start();
             case 'dlnd':
                 include "../view/dlnd.php";
                 break;
+            case 'dlgt':
+                include "../view/dlgt.php";
+                break;
             default:
                 include "../view/home.php";
                 break;
