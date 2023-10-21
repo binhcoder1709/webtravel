@@ -38,9 +38,9 @@
                         <a href="#">Tour</a>
                         <div class="function-dropdown-cont">
                             <a href="../controller/index.php?action=dlnd" style="border-radius: 10px 10px 0px 0px;">Du lich nghi duong</a>
-                            <a href="#">Du lich bieu tuong van hoa</a>
+                            <a href="../controller/index.php?action=dlbtvh">Du lich bieu tuong van hoa</a>
                             <a href="../controller/index.php?action=dlgt">Du lich giai tri</a>
-                            <a href="#" style="border-radius: 0px 0px 10px 10px;">@@@</a>
+                            <a href="../controller/index.php?action=dlkp" style="border-radius: 0px 0px 10px 10px;">Du lich kham pha</a>
                         </div>
                     </div>
                     <a href="../controller/index.php?action=ourteam">Ourteam</a>

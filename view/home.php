@@ -37,21 +37,7 @@
       </div> -->
       <div class="test">
         <video src="../sources/video (1080p).mp4" id="video" autoplay muted loop></video>
-        <div class="order-box">
-          <form action="#">
-          <div class="from-to"> 
-            <div class="from">
-              <label for="from">From</label>
-              <input type="text" placeholder="Enter the origin place">
-            </div>
-            <div class="to">
-              <label for="to">To</label>
-              <input type="text" placeholder="Enter the destination place">
-            </div>
-          </div>
-          </form>
-        </div>
-    </div>
+      </div>
       <div class="book-opt">
         <form action="">
           <div class="destinations">

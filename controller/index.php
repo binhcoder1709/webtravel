@@ -69,11 +69,17 @@ ob_start();
             case 'introduce':
                 include "../view/introduce.html";
                 break;
+            case 'dlkp':
+                include "../view/dlkp.php";
+                break;
             case 'dlnd':
                 include "../view/dlnd.php";
                 break;
             case 'dlgt':
                 include "../view/dlgt.php";
+                break;
+            case 'dlbtvh':
+                include "../view/dlbtvh.php";
                 break;
             default:
                 include "../view/home.php";
