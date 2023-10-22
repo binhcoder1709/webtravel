@@ -35,7 +35,7 @@
           </a>
         </div>
       </div> -->
-      <div class="test">
+      <div class="vid-banner">
         <video src="../sources/video (1080p).mp4" id="video" autoplay muted loop></video>
       </div>
       <div class="book-opt">
